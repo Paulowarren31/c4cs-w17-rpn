@@ -17,8 +17,8 @@ def calculate(arg):
       stack.append(int(token))
     else:
       if token in operators and len(stack) >= 2:
-        a = stack.pop()
         b = stack.pop()
+        a = stack.pop()
         stack.append(operators[token](a, b))
       else:
         print('Error: Malformed expression')

@@ -30,4 +30,7 @@ class TestBasics(unittest.TestCase):
   def test_combine(self):
     result = rpn.calculate("1 1 + 2 *")
     self.assertEqual(4, result)
+  def test_exp(self):
+    result = rpn.calculate("4 3 ^")
+    self.assertEqual(64, result)
 
