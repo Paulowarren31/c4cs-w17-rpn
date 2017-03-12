@@ -1,4 +1,4 @@
 RPN Calculator
 =============
 
-https://travis-ci.org/Paulowarren31/c4cs-w17-rpn.svg?branch=master
+[![Build Status](https://travis-ci.org/Paulowarren31/c4cs-w17-rpn.svg?branch=master)](https://travis-ci.org/Paulowarren31/c4cs-w17-rpn)
