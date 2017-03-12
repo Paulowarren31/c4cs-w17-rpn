@@ -34,6 +34,17 @@ def calculate(arg):
 
 
 def main():
+    print('haha not tested')
+    print('haha not tested')
+    print('haha not tested')
+    print('haha not tested')
+    print('haha not tested')
+    print('haha not tested')
+    print('haha not tested')
+    print('haha not tested')
+    print('haha not tested')
+    print('haha not tested')
+    print('haha not tested')
     while True:
         calculate(input("rpn calc> "))
 
