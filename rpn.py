@@ -1,23 +1,12 @@
 #!/usr/bin/env python3
+import operator
 
-
-def add(a,b):
-  return a + b
-
-def sub(a, b):
-  return b - a
-
-def mult(a, b):
-  return a * b
-
-def div(a, b):
-  return b / a
 
 operators = {
-    '+': add,
-    '-': sub,
-    '*': mult,
-    '/': div
+    '+': operator.add,
+    '-': operator.add,
+    '*': operator.mul,
+    '/': operator.truediv
     }
     
 def calculate(arg):
